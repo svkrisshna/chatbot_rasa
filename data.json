@@ -1,0 +1,165 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+      	"text": "see you",
+      	"intent": "goodbye",
+      	"entities": []
+      },
+      {
+        "text": "Good Morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good Evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good Afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place to eat",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place in the north of town",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "show me chinese restaurants",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "show me a mexican place in the centre",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for an indian spot",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "suggest some restaurants anywhere in the west",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "west",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "central indian restaurant",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "central",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "what is the menu ?",
+        "intent": "menu_search",
+        "entities": []
+      },
+      {
+        "text": "can i get the menu ?",
+        "intent": "menu_search",
+        "entities": []
+      },
+      {
+        "text": "what are the specials ?",
+        "intent": "menu_search",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "that's ok",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "cool",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "good",
+        "intent": "affirmative",
+        "entities": []
+      }
+    ]
+  }
+}

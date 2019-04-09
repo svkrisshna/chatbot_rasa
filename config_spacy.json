@@ -1,0 +1,5 @@
+{
+  "pipeline":"spacy_sklearn",
+  "path":"D:/RasaBot/nlu_model",
+  "data":"D:/RasaBot/data/data.json"
+}
